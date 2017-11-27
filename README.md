@@ -1,2 +1,2 @@
 # jmxclient
-A generic jmx client
+A generic jmx client under spring boot

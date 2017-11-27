@@ -13,13 +13,13 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Client {
+public class JmxClient {
 
     String mbeanname;
     String mbeanattr;
     String mbeanvalue;
 
-    public Client(String mbeanname, String mbeanattr, String mbeanvalue ) {
+    public JmxClient(String mbeanname, String mbeanattr, String mbeanvalue ) {
 
         this.mbeanattr = mbeanattr;
         this.mbeanname = mbeanname;
